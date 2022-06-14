@@ -173,7 +173,7 @@ public class MainActivity extends AppCompatActivity {
         List<Database_Model> productModelList = database_Helper.to_GetAll_Products();
         product_list.setText("");
         for(Database_Model productModel : productModelList){
-            product_list.append("ID : "+ productModel.getId()+" | product_ID : "+ productModel.getproduct_id()+" | Product_Name : "+ productModel.getProduct_name()+" | Product_Price : "+ productModel.getProduct_price()+ " | Product_description : "+ productModel.getProduct_description()+" \n\n");
+            product_list.append("ID :- "+ productModel.getId()+" | Product ID :- "+ productModel.getproduct_id()+" | Product Name :- "+ productModel.getProduct_name()+" | Product Price :- "+ productModel.getProduct_price()+ " | Product description :- "+ productModel.getProduct_description()+" \n\n");
         }
     }
 

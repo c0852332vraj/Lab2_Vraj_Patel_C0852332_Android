@@ -83,10 +83,20 @@
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
         android:layout_marginStart="5dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="75dp"
         android:layout_marginEnd="2dp"
         android:layout_marginBottom="130dp"
         android:padding="10dp"
-        android:textColor="@color/black" />
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Products Database App"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:background="#1D025C"/>
 
 </RelativeLayout>
